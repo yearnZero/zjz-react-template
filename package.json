@@ -1,0 +1,19 @@
+{
+  "name": "zjz-react-template",
+  "version": "1.0.0",
+  "description": "项目初始化模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearnZero/zjz-react-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yearnZero/zjz-react-template/issues"
+  },
+  "homepage": "https://github.com/yearnZero/zjz-react-template#readme"
+}
