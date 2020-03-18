@@ -5,11 +5,13 @@ const autoprefixer = require('autoprefixer');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const projectRoot = process.cwd();
+
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.join(projectRoot, 'dist'),
     filename: '[name]_[hash:8].js'
   },
   module: {
